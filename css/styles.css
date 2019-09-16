@@ -48,7 +48,7 @@ body {
 }
 
 #choices > li.wrong::after{
-  content: '... ﾁｶﾞｳﾖ-'
+  content: '... ﾁｶﾞｳﾖ-( ´△｀)'
 }
 
 #choices > li.wrong{
