@@ -84,9 +84,8 @@ function setQuiz(){
     }
     btn.classList.add('disabled');
 
-    if (currentNum === quizSet.length -1) {
-      // console.log(`Score: ${score} / ${quizSet.length}`);
-      scoreLabel.textContent = `得点: ${score} / ${quizSet.length}`;
+    if (currentNum === quizSet.length -10) {
+      scoreLabel.textContent = `得点: ${score} / ${quizSet.length -9}`;
       result.classList.remove('hidden');
     } else {
       currentNum++;
